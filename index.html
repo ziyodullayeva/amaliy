@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <h2 class="text">Product Registration Form</h2>
+        <p class="sup-text">Register your product by filling in the product registration form below.</p>
+        <hr>
+        <form>
+            <label for="ism">Name</label> <br>
+            <input type="text" name="ism" id="ism" placeholder="First">
+            <input class="input1" type="text" name="last" id="last" placeholder="Last">
+            <label class="email" for="email">Email</label> <br>
+            <input type="email" name="email" id="email">
+            <label for="number">Phone</label>
+            <input type="number" name="number" id="number" placeholder="### ### ####">
+            <label for="addres">Addres</label> <br>
+            <input class="input2" type="text" name="addres" id="addres" placeholder="Street Addres">
+            <input class="input3" type="text" placeholder="City">
+            <select name="location" id="manzil">
+                <!-- <input type="text" placeholder="State"> -->
+                <option value="Washington"></option>
+                <option value="Nebraska">Nebraska</option>
+            </select>
+            <input class="input3" type="text" placeholder="Postal / Zip Code">
+            <select name="location" id="manzil">
+                <option value=""></option>
+                <option value=""></option>
+            </select>
+            <h2 class="text">PRODUCT INFORMATION</h2> <br>
+            <div class="input_block">
+                <div class="input_left_block">
+                    <label for="">Product Name</label> <br>
+                    <input type="text"> <br>
+                    <small>e.g Laptop</small> <br>
+                    <label for="">Product Model ID</label> <br>
+                    <input type="text"> <br>
+                    <small>e.g VN7793G750Z</small>
+                </div>
+                <div class="input_right_block">
+                    <label for="">Product Brand & Model</label> <br>
+                    <input type="text"> <br>
+                    <small>e.g Acer Aspire Nitro</small> <br>
+                    <label for="">Product Fabrication Year</label> <br>
+                    <input type="text"> <br>
+                    <small>e.g 2012</small>
+                </div>
+            </div>
+            <label for="date">PurChase Date</label> <br>
+            <input type="date" name="date" id="date"> <br>
+            <small>e.g 12/04/2017</small>
+        </form>
+    </div>
+</body>
+
+</html>

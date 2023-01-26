@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&family=Oswald&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(155, 243, 243);
+    font-family: 'Fraunces', serif;
+    font-family: 'Oswald', sans-serif;
+}
+.container{
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background: #fff;
+    margin-bottom: 10px;
+}
+.text{
+    margin: 10px;
+    color: rgb(7, 124, 124);
+}
+.sup-text{
+    margin: 8px;
+    color: rgb(7, 124, 124);
+}
+label{
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+input{
+    padding: 10px 15px;
+    width: 300px;
+}
+.input1{
+    margin-left: 20px;
+}
+.email{
+    display: inline-block;
+}
+.input2{
+    width: 625px;
+    margin-bottom: 15px;
+}
+select{
+    display: inline-block;
+    padding: 10px 15px;
+    width: 300px;
+    margin-left: 20px;
+}
+.input3{
+    margin-bottom: 15px;
+}
+.activ{
+    margin-left: 20px;
+}
+.input_block{
+    display: flex;
+    justify-content: space-between;
+}
+small{
+    color: grey;
+}
